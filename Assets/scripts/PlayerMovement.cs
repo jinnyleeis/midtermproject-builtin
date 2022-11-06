@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour {
             player = player2;
             
             //player1.SetActive(false);
-            print("checked");
+            
             
         }
         // 수평과 수직 축 입력 값을 감지하여 저장
