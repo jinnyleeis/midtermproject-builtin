@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6c4600ef-dd95-472e-8c8b-fb2434c160b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.midtermproject-builtin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.midtermproject-builtin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/particlebullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/particlebullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/timelinecontrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/timelinecontrol.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,7 @@
       <workItem from="1667203828502" duration="984000" />
       <workItem from="1667461349130" duration="1684000" />
       <workItem from="1667465063365" duration="1904000" />
-      <workItem from="1667653609808" duration="19583000" />
+      <workItem from="1667653609808" duration="20303000" />
     </task>
     <servers />
   </component>
