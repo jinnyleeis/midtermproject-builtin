@@ -1922,6 +1922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tmp: {fileID: 0}
+  startscene2: 0
+  startscene1: 1
   startbutton: {fileID: 0}
 --- !u!1001 &4471775994626383089
 PrefabInstance:

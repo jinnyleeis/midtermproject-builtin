@@ -12,19 +12,23 @@ using TMPro;
 public class sceneload : MonoBehaviour
 {
     public TextMeshProUGUI tmp;
-   
+
+    public bool mainscene;
+    public bool bigbangscene;
     private float lifespan;
     private bool ismainscene=false;
     public bool startscene2;
+    public bool startscene1;
     private float lifetime;
     private float speed;
     public GameObject startbutton;
+    public GameObject mainbutton;
     
     // Start is called before the first frame update
     void Start()
     {
         lifetime = 0;
-        lifespan = Random.Range(50f, 200f);
+        lifespan = Random.Range(30f, 35f);
 
         if (startscene2)
         {
@@ -34,8 +38,20 @@ public class sceneload : MonoBehaviour
             button.onClick.AddListener(startClicked);
         }
 
-        StartCoroutine(COROUTINE(2f,"StartScene2",false));
-        
+        if (startscene1)
+        {
+
+            StartCoroutine(COROUTINE1(2f, "StartScene2", false));
+        }
+
+        if (bigbangscene)
+        {
+           // StartCoroutine(COROUTINE2(9f, "MainScene",true));
+           Button button1 = mainbutton.gameObject.GetComponent<Button>(); //접근
+           //접근 & 이벤트 등록
+           button1.onClick.AddListener(mainClicked);
+        }
+
 
 
 
@@ -45,7 +61,7 @@ public class sceneload : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ismainscene)
+        if (mainscene)
         {
             lifetime += Time.deltaTime;
             tmp.text = "Your Life Time:" + (int)lifetime + "\nYour RANDOM Life span:" + (int)lifespan;
@@ -56,12 +72,20 @@ public class sceneload : MonoBehaviour
     void startClicked()//스타트씬 -> 빅뱅 씬으로 이동!
     {
         SceneManager.LoadScene("Bigbangscene");
-        StartCoroutine(COROUTINE(5f, "MainScene",true));
+        
         
 
     }
     
-    IEnumerator COROUTINE(float a,string scene,bool main)
+    void mainClicked()//스타트씬 -> 빅뱅 씬으로 이동!
+    {
+        SceneManager.LoadScene("Mainscene");
+        
+        
+
+    }
+    
+    IEnumerator COROUTINE1(float a,string scene,bool main)
     {
 
         yield return new WaitForSeconds(a);
@@ -69,6 +93,14 @@ public class sceneload : MonoBehaviour
         ismainscene = main;
 
     }
+    //IEnumerator COROUTINE2(float a,string scene,bool main)
+   // {
+
+    //    yield return new WaitForSeconds(a);
+    //    SceneManager.LoadScene(scene);
+    //    ismainscene = main;
+
+  //  }
     
     
     

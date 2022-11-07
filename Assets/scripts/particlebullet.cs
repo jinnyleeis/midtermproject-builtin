@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class particlebullet : MonoBehaviour {
     public float speed = 8f; // 총알 이동 속력
-    private Rigidbody bulletRigidbody; // 이동에 사용할 리지드바디 컴포넌트
+    //private Rigidbody bulletRigidbody; // 이동에 사용할 리지드바디 컴포넌트
     public bool isdestroy;
     private timelinecontrol tmctrl;
 
@@ -31,6 +31,28 @@ public class particlebullet : MonoBehaviour {
            print("player1");
            tmctrl.pd1();
            //StartCoroutine(COROUTINE());
+         
+           
+        }
+        
+        if (other.tag == "Player2")
+        {
+           
+          
+            print("player2");
+            tmctrl.pd2();
+            //StartCoroutine(COROUTINE());
+         
+           
+        }
+        
+        if (other.tag == "Player3")
+        {
+           
+          
+            print("player3");
+            tmctrl.pd3();
+            //StartCoroutine(COROUTINE());
          
            
         }

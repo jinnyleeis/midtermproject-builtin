@@ -7,12 +7,17 @@ using Cinemachine;
 
 public class timelinecontrol : MonoBehaviour
 {
-    [SerializeField] private PlayableDirector[] _playableDirectors;
+    public PlayableDirector[] _playableDirectors;
     // Start is called before the first frame update
     void Start()
     {
         
-        PlayableDirector[] _playableDirectors = GetComponents<PlayableDirector>();
+        //PlayableDirector[] _playableDirectors = GetComponents<PlayableDirector>();
+        print(_playableDirectors.Length);
+        foreach(PlayableDirector i in _playableDirectors)
+        {
+            print(i);
+        }
         
         _playableDirectors[0].Play();
 
@@ -28,5 +33,16 @@ public class timelinecontrol : MonoBehaviour
     public void pd1()
     {
         _playableDirectors[1].Play();
+    }
+    
+    
+    public void pd2()
+    {
+        _playableDirectors[2].Play();
+    }
+    
+    public void pd3()
+    {
+        _playableDirectors[3].Play();
     }
 }
