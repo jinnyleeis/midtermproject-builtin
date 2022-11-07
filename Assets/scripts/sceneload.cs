@@ -28,7 +28,7 @@ public class sceneload : MonoBehaviour
     void Start()
     {
         lifetime = 0;
-        lifespan = Random.Range(30f, 35f);
+        lifespan = 60f; //Random.Range(50f, 35f);
 
         if (startscene2)
         {

@@ -39,13 +39,16 @@ public class particlebullet : MonoBehaviour {
         
         if (other.tag == "Player2")
         {
-           
-          
-            print("player2");
-            tmctrl.pd2();
-            //StartCoroutine(COROUTINE());
-         
-           
+            if (tmctrl.isplayed2 == false)
+            {
+                tmctrl.isplayed2 = true;
+                print("player2");
+                tmctrl.pd2();
+                //StartCoroutine(COROUTINE());
+            }
+
+
+
         }
         if (other.tag == "Player3")
         {

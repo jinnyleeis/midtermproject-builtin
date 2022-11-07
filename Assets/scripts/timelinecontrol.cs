@@ -13,6 +13,9 @@ public class timelinecontrol : MonoBehaviour
     public PlayableDirector[] _playableDirectors;
 
     public bool isplayed1 = false;
+
+    public bool isplayed2 = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -43,7 +46,11 @@ public class timelinecontrol : MonoBehaviour
     
     public void pd2()
     {
-        _playableDirectors[2].Play();
+        //_playableDirectors[2].Play();
+        audiosource.clip = AudioClips[1];
+        audiosource.Play();
+        StartCoroutine(COROUTINE1());
+        
     }
     
     public void pd3()
@@ -65,6 +72,15 @@ public class timelinecontrol : MonoBehaviour
         yield return new WaitForSeconds(10);
         audiosource.Stop();
         isplayed1 = false;
+
+
+    }
+    IEnumerator COROUTINE1()
+    {
+
+        yield return new WaitForSeconds(2);
+        audiosource.Stop();
+        isplayed2 = false;
 
 
     }
