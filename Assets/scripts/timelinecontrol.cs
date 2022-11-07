@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 using Cinemachine;
+using UnityEngine.Audio;
 
 
 public class timelinecontrol : MonoBehaviour
 {
+    public AudioSource audiosource;
+    public AudioClip[] AudioClips;
     public PlayableDirector[] _playableDirectors;
+
+    public bool isplayed1 = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +48,24 @@ public class timelinecontrol : MonoBehaviour
     
     public void pd3()
     {
-        _playableDirectors[3].Play();
+        audiosource.clip = AudioClips[0];
+        
+        print("play!!");
+       
+          
+            audiosource.Play();
+            StartCoroutine(COROUTINE());
+       
+        //_playableDirectors[3].Play();
+    }
+    
+    IEnumerator COROUTINE()
+    {
+
+        yield return new WaitForSeconds(10);
+        audiosource.Stop();
+        isplayed1 = false;
+
+
     }
 }

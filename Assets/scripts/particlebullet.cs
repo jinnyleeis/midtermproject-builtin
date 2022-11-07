@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -8,6 +9,7 @@ public class particlebullet : MonoBehaviour {
     //private Rigidbody bulletRigidbody; // 이동에 사용할 리지드바디 컴포넌트
     public bool isdestroy;
     private timelinecontrol tmctrl;
+    
 
     void Start()
     {
@@ -45,18 +47,23 @@ public class particlebullet : MonoBehaviour {
          
            
         }
-        
         if (other.tag == "Player3")
         {
            
           
             print("player3");
-            tmctrl.pd3();
+            if (tmctrl.isplayed1 == false)
+            {
+                tmctrl.isplayed1 = true;
+                tmctrl.pd3();
+            }
             //StartCoroutine(COROUTINE());
          
            
         }
     }
+
+    
 
     IEnumerator COROUTINE()
     {
