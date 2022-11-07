@@ -6,20 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6c4600ef-dd95-472e-8c8b-fb2434c160b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.midtermproject-builtin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.midtermproject-builtin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bigbangscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bigbangscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Flying Bicycle Kick-2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Flying Bicycle Kick-2.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/bigbangtimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/bigbangtimeline.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/particlesmovementTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/particlesmovementTimeline.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/followcam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/followcam.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/particlebullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/particlebullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/sceneload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/sceneload.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/storytimeline1.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/storytimeline1.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/timelinecontrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/timelinecontrol.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Treading Water.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Treading Water.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/storytimeline2Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/storytimeline2Timeline.playable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +97,8 @@
       <workItem from="1667203828502" duration="984000" />
       <workItem from="1667461349130" duration="1684000" />
       <workItem from="1667465063365" duration="1904000" />
-      <workItem from="1667653609808" duration="32455000" />
+      <workItem from="1667653609808" duration="33064000" />
+      <workItem from="1667789238439" duration="1502000" />
     </task>
     <servers />
   </component>
